@@ -226,6 +226,16 @@ def main():
     if len(articles) > MAX_ITEMS:
         sys.exit(f"ERROR: 1フィード{MAX_ITEMS}本まで。articles.jsonが{len(articles)}本あります。分割してください。")
 
+    # guid はNordotの記事識別キー（上限255字・変更不可）。日本語URLはエンコードで
+    # 255字を超えるため、articles.json の "guid" 欄で短い恒久IDを明示管理する
+    # （2026-08-18 ノアドット・サポート有木氏の指摘対応）
+    guids = [a.get("guid") for a in articles]
+    if None in guids or len(set(guids)) != len(guids):
+        sys.exit("ERROR: 全記事に一意の guid が必要です（articles.jsonに\"guid\"欄を追加）")
+    for g in guids:
+        if len(g) > 255 or not re.fullmatch(r"[A-Za-z0-9._:-]+", g):
+            sys.exit(f"ERROR: guidは255字以内の英数字・記号のみ: {g}")
+
     items = []
     for art in articles:
         url = art["url"]
@@ -237,18 +247,20 @@ def main():
             sys.exit(f"ERROR: 本文が{len(body)}字でNordot上限{MAX_BODY}字を超過: {url}")
         if not body or not title:
             sys.exit(f"ERROR: 本文またはタイトルを抽出できません: {url}")
+        guid = art["guid"]
         digest = hashlib.sha256((title + body + art["publishedAt"]).encode()).hexdigest()
-        st = state.get(url)
+        st = state.get(guid) or state.get(url)  # 旧台帳(URLキー)からの移行も許容
         if st and st.get("hash") == digest:
             fed_at = st["fedAt"]  # 変更なし → fedAt据え置き（再取得のたびに更新扱いさせない）
         else:
             fed_at = rfc1123(now)
-            state[url] = {"fedAt": fed_at, "hash": digest}
+        state.pop(url, None)
+        state[guid] = {"fedAt": fed_at, "hash": digest}
         pub = datetime.strptime(art["publishedAt"], "%Y-%m-%d %H:%M").replace(tzinfo=JST)
         if pub > now:
             sys.exit(f"ERROR: publishedAtが未来日付です: {url}")
         items.append({
-            "guid": url, "sourceUrl": url, "fedAt": fed_at, "title": title,
+            "guid": guid, "sourceUrl": url, "fedAt": fed_at, "title": title,
             "body": body, "publishedAt": rfc1123(pub), "tags": art.get("tags", ""),
         })
 
