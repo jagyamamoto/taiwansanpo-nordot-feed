@@ -16,7 +16,23 @@
   "hash": "7cf86ee90ac8a53890eaf61952dad6671774a23d10d3b685106b5717df66c1a7"
  },
  "taiwansanpo-2026-temple-hub-guide": {
-  "fedAt": "Wed, 19 Aug 2026 16:46:28 +0900",
-  "hash": "1d3f913200c98fcd306ced86f186f6a644311056a94db56b63289cf390518967"
+  "fedAt": "Thu, 20 Aug 2026 00:11:02 +0900",
+  "hash": "21fb99ed1ff43de09d67b1ecd5cdc01e42cbd6d4e456216214e1f235e6e4cfb5"
+ },
+ "taiwansanpo-2026-shini-design": {
+  "fedAt": "Thu, 20 Aug 2026 00:11:02 +0900",
+  "hash": "6cc8475f5f20553f289b983c0ad9f56df8d76f4dc8ceb4157267ca4b97f8af5b"
+ },
+ "taiwansanpo-2026-temple-easycard": {
+  "fedAt": "Thu, 20 Aug 2026 00:11:02 +0900",
+  "hash": "e6816b506ca09a47fafbf0e7662acae9c2647ed19bb68c11001009d3d82ab4d9"
+ },
+ "taiwansanpo-2026-joss-paper-reduction": {
+  "fedAt": "Thu, 20 Aug 2026 00:11:02 +0900",
+  "hash": "8a13183087452d8f7b06345361f0dffbfe7c4cb1b236771918c71a570562c105"
+ },
+ "taiwansanpo-2026-unusual-gods": {
+  "fedAt": "Thu, 20 Aug 2026 00:11:02 +0900",
+  "hash": "65c9e52e2b0f18c45160c3fd6e2d2ac451bca6e5e52378159ccac4cd2bfb3f8f"
  }
 }
