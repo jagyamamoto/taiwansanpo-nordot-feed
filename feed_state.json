@@ -1,38 +1,38 @@
 {
  "taiwansanpo-2026-xiahai-yuelao": {
-  "fedAt": "Mon, 17 Aug 2026 16:52:21 +0900",
-  "hash": "38598bf36a6472521f26b07df649f5d97838f3af9046582926cb7619b7682fd7"
+  "fedAt": "Thu, 20 Aug 2026 10:12:11 +0900",
+  "hash": "0e7e3197eccb9235b4f40e2a2af4235d628885490edd20d18861db1b36435834"
  },
  "taiwansanpo-2026-toucheng-qianggu": {
-  "fedAt": "Mon, 17 Aug 2026 16:52:21 +0900",
-  "hash": "f4af50d0acc59938f5456b213c1815eaf134e1224bd6d47ad880b1d1fe6f72c0"
+  "fedAt": "Thu, 20 Aug 2026 10:12:11 +0900",
+  "hash": "33ed4f0fa03122528ff906edbbddc860a2f1639f78cfd3ae7dd928f8db4fab66"
  },
  "taiwansanpo-2026-ai-jieqian": {
-  "fedAt": "Wed, 19 Aug 2026 14:43:07 +0900",
-  "hash": "21687669614f555df9db88bf25f0725072c7614b428c8bb94edf467bbf5d5c4f"
+  "fedAt": "Thu, 20 Aug 2026 10:12:11 +0900",
+  "hash": "fc54c16655531ca50418eaadcad8eaabf7b2808ee4560370c9676661bdb03929"
  },
  "taiwansanpo-2026-ai-funeral": {
-  "fedAt": "Wed, 19 Aug 2026 14:53:35 +0900",
-  "hash": "7cf86ee90ac8a53890eaf61952dad6671774a23d10d3b685106b5717df66c1a7"
+  "fedAt": "Thu, 20 Aug 2026 10:12:11 +0900",
+  "hash": "8e59b2efc3007645a1c88a32452e2ab956fa11363a0c3ec18ae79eb7c8d1aae2"
  },
  "taiwansanpo-2026-temple-hub-guide": {
-  "fedAt": "Thu, 20 Aug 2026 00:11:02 +0900",
-  "hash": "21fb99ed1ff43de09d67b1ecd5cdc01e42cbd6d4e456216214e1f235e6e4cfb5"
+  "fedAt": "Thu, 20 Aug 2026 10:12:11 +0900",
+  "hash": "1d3f913200c98fcd306ced86f186f6a644311056a94db56b63289cf390518967"
  },
  "taiwansanpo-2026-shini-design": {
-  "fedAt": "Thu, 20 Aug 2026 00:11:02 +0900",
-  "hash": "6cc8475f5f20553f289b983c0ad9f56df8d76f4dc8ceb4157267ca4b97f8af5b"
+  "fedAt": "Thu, 20 Aug 2026 10:12:11 +0900",
+  "hash": "d8d271d40a0ac283c2ecf0c5e23d67eb83707c6859c8465f60d2ba4710cee9b5"
  },
  "taiwansanpo-2026-temple-easycard": {
-  "fedAt": "Thu, 20 Aug 2026 00:11:02 +0900",
-  "hash": "e6816b506ca09a47fafbf0e7662acae9c2647ed19bb68c11001009d3d82ab4d9"
+  "fedAt": "Thu, 20 Aug 2026 10:12:11 +0900",
+  "hash": "446a830f27acffa3599e6b47a85565f406ce3eff011078e96ebea977214816e7"
  },
  "taiwansanpo-2026-joss-paper-reduction": {
-  "fedAt": "Thu, 20 Aug 2026 00:11:02 +0900",
-  "hash": "8a13183087452d8f7b06345361f0dffbfe7c4cb1b236771918c71a570562c105"
+  "fedAt": "Thu, 20 Aug 2026 10:12:11 +0900",
+  "hash": "84f7a5ab94ec88a00250dd680a79341c48b317445b0ce57a340903ab17f341ff"
  },
  "taiwansanpo-2026-unusual-gods": {
-  "fedAt": "Thu, 20 Aug 2026 00:11:02 +0900",
-  "hash": "65c9e52e2b0f18c45160c3fd6e2d2ac451bca6e5e52378159ccac4cd2bfb3f8f"
+  "fedAt": "Thu, 20 Aug 2026 10:12:11 +0900",
+  "hash": "839e84c7fcc4d56510923855a38574f14dc32982c695a61999c9c9731992d2cb"
  }
 }

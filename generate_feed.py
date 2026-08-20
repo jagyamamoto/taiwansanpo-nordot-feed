@@ -177,6 +177,14 @@ def extract_article(html_text):
     seg_end = html_text.find("flexsocialbuttons", seg_start)
     seg = html_text[seg_start:seg_end if seg_end > 0 else None]
     # 記事本文 = j-htmlCode モジュール（自作HTMLウィジェット）の中身を連結
+    #
+    # ただし content_area には記事本文以外の j-htmlCode も入っている。
+    # サイドバー「台湾のお寺を満喫しよう！」（.ts-side）はテーマ別リンク集で、
+    # これが本文に混ざると配信先の記事末尾に自サイトへの誘導リンクが並ぶ。
+    # NEWSjpの記事ガイドラインで禁止されているため、本文からは必ず除外する。
+    # （2026-08-20 ノアドットより指摘。同様の「本文ではないモジュール」を足すときは
+    #   ここの除外条件も更新すること）
+    NON_BODY = ("ts-side", "ts-jump", "ts-portal")
     bodies = []
     for m2 in re.finditer(r'<div[^>]*class="[^"]*j-htmlCode[^"]*"[^>]*>', seg):
         start = m2.end()
@@ -193,7 +201,10 @@ def extract_article(html_text):
             else:
                 depth -= 1
                 i = nxt_close + 6
-        bodies.append(seg[start:i - 6])
+        chunk = seg[start:i - 6]
+        if any(cls in chunk for cls in NON_BODY):
+            continue
+        bodies.append(chunk)
     return title, "\n".join(bodies)
 
 
