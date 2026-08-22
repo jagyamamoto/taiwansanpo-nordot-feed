@@ -42,5 +42,13 @@
  "taiwansanpo-2026-ghost-month-taboos": {
   "fedAt": "Sat, 22 Aug 2026 13:36:00 +0900",
   "hash": "95d3ae75ecd9287c56b785a20ec41963d2fa7a051040d9c1fc444a8fe28be2ca"
+ },
+ "taiwansanpo-2026-baosheng-dadi": {
+  "fedAt": "Sat, 22 Aug 2026 14:47:48 +0900",
+  "hash": "450a5b69be9046f7fa164a5afcb55c3cef2833fc608887b57f0a8998a94dae2e"
+ },
+ "taiwansanpo-2026-sanxia-zushi": {
+  "fedAt": "Sat, 22 Aug 2026 15:39:25 +0900",
+  "hash": "f74de675aecad36ac5dbf89b8c17c91e8d6d280208d849452b77f8976853ec98"
  }
 }
