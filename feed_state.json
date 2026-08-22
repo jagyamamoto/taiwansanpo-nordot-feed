@@ -40,8 +40,8 @@
   "hash": "21bd535c2b505bdf83f201df985678cb0ab60da7419f80443ffa472dc8e7a3ce"
  },
  "taiwansanpo-2026-ghost-month-taboos": {
-  "fedAt": "Sat, 22 Aug 2026 13:36:00 +0900",
-  "hash": "95d3ae75ecd9287c56b785a20ec41963d2fa7a051040d9c1fc444a8fe28be2ca"
+  "fedAt": "Sat, 22 Aug 2026 16:55:48 +0900",
+  "hash": "75f3d810ecaed645e82e845bc6702d89b0851091c4a83cc9ccc557cbf87fd960"
  },
  "taiwansanpo-2026-baosheng-dadi": {
   "fedAt": "Sat, 22 Aug 2026 14:47:48 +0900",
@@ -54,5 +54,9 @@
  "taiwansanpo-2026-guan-sheng-dijun": {
   "fedAt": "Sat, 22 Aug 2026 16:26:38 +0900",
   "hash": "e65462cff51a632a5059d858cf7aa0464ad5a0b931f7f204ea0158e891122935"
+ },
+ "taiwansanpo-2026-oomikuji-seikou": {
+  "fedAt": "Sat, 22 Aug 2026 16:56:17 +0900",
+  "hash": "ce58a4cc9d606de4a3e6a0d3762b073a972976063e2d5d11e47d01c962681ea6"
  }
 }
