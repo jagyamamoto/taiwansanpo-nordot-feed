@@ -78,5 +78,9 @@
  "taiwansanpo-2026-pingan-fu": {
   "fedAt": "Mon, 24 Aug 2026 13:46:32 +0900",
   "hash": "57f5af7d6cfc106be714f3f7404b33086479958e5c736c941c3f49484990ff14"
+ },
+ "taiwansanpo-2026-hsinchu-chenghuang": {
+  "fedAt": "Mon, 24 Aug 2026 19:31:48 +0900",
+  "hash": "1c7af786f493c89992f7f57962e277d24d04e2fba1fdd3eb44db7d83df878a8c"
  }
 }
