@@ -82,5 +82,13 @@
  "taiwansanpo-2026-hsinchu-chenghuang": {
   "fedAt": "Mon, 24 Aug 2026 19:31:48 +0900",
   "hash": "1c7af786f493c89992f7f57962e277d24d04e2fba1fdd3eb44db7d83df878a8c"
+ },
+ "taiwansanpo-2026-zhongtan-yuanshuai": {
+  "fedAt": "Tue, 25 Aug 2026 07:23:42 +0900",
+  "hash": "10986b490278ecdec90caf843df2b63245f42ae880281dbc46c9dad15c2fafd4"
+ },
+ "taiwansanpo-2026-kouhu-qianshui": {
+  "fedAt": "Tue, 25 Aug 2026 13:31:11 +0900",
+  "hash": "dd4842dab830c6de5a3eba7667f35248dc18499a019783a916e62db986212448"
  }
 }
