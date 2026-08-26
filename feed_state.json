@@ -94,5 +94,13 @@
  "taiwansanpo-2026-lukang-tianhou": {
   "fedAt": "Tue, 25 Aug 2026 19:38:49 +0900",
   "hash": "2d968633a3620e1727fd5e4bef9e926afa11708902fa7696ff4c15b426d9a8bd"
+ },
+ "taiwansanpo-2026-guangze-zunwang": {
+  "fedAt": "Wed, 26 Aug 2026 07:37:51 +0900",
+  "hash": "77f9b7ba8809e1ea94cdbfe5e7c837fc0fa49e4a20c130c58882ced0690e0514"
+ },
+ "taiwansanpo-2026-joss-paper-types": {
+  "fedAt": "Wed, 26 Aug 2026 13:31:27 +0900",
+  "hash": "64eddb8d024cd8bfd91813880482e583ccf0014a512d4685214732831b7aaf1b"
  }
 }
