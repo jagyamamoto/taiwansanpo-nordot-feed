@@ -114,5 +114,9 @@
  "taiwansanpo-2026-guangmingdeng": {
   "fedAt": "Thu, 27 Aug 2026 13:27:40 +0900",
   "hash": "0fd820b4d04818460b93ccaaa378f0979fd3b07c201451b79f743b877e2cbb0e"
+ },
+ "taiwansanpo-2026-donglong": {
+  "fedAt": "Thu, 27 Aug 2026 19:34:56 +0900",
+  "hash": "a969b5dc8fe487cb4f4f022d0579a8165a374c1678898334c5c8ae63e9187092"
  }
 }
