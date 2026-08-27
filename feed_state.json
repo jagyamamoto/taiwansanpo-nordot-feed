@@ -110,5 +110,9 @@
  "taiwansanpo-2026-huye": {
   "fedAt": "Thu, 27 Aug 2026 07:28:46 +0900",
   "hash": "f18d05e1f99c02950f1307b5b557e5f806bd6e038215649ac690b1d5642102c8"
+ },
+ "taiwansanpo-2026-guangmingdeng": {
+  "fedAt": "Thu, 27 Aug 2026 13:27:40 +0900",
+  "hash": "0fd820b4d04818460b93ccaaa378f0979fd3b07c201451b79f743b877e2cbb0e"
  }
 }
