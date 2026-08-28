@@ -118,5 +118,9 @@
  "taiwansanpo-2026-donglong": {
   "fedAt": "Thu, 27 Aug 2026 19:34:56 +0900",
   "hash": "a969b5dc8fe487cb4f4f022d0579a8165a374c1678898334c5c8ae63e9187092"
+ },
+ "taiwansanpo-2026-jiaoxi-xietian": {
+  "fedAt": "Fri, 28 Aug 2026 19:46:35 +0900",
+  "hash": "71f3c0d9a8e90de96cafb018eeccdda1d8a20e439a73ee6ebc7e8f2c12680ebc"
  }
 }
