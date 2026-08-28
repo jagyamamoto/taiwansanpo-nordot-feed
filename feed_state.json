@@ -122,5 +122,9 @@
  "taiwansanpo-2026-jiaoxi-xietian": {
   "fedAt": "Fri, 28 Aug 2026 19:46:35 +0900",
   "hash": "71f3c0d9a8e90de96cafb018eeccdda1d8a20e439a73ee6ebc7e8f2c12680ebc"
+ },
+ "taiwansanpo-2026-mazu": {
+  "fedAt": "Fri, 28 Aug 2026 22:57:22 +0900",
+  "hash": "86bb96487b5063d60864363a2d9185bc762afd7be14f427dda131a7deec25cc8"
  }
 }
