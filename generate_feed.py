@@ -32,6 +32,14 @@ JST = timezone(timedelta(hours=9))
 MAX_BODY = 30000
 MAX_ITEMS = 20  # 過去記事入稿は1フィード20本程度まで（Nordot公式ガイド）
 
+# 配信文の末尾に添える一文（NEWSjp記事ガイドライン対応、2026-09-06）
+#   ガイドラインは「自社記事の閲覧数を増やす目的と思われる不自然なリンク」を禁止しているため、
+#   自社サイト用CTA（class="ts-sim-cta"）は配信文から必ず除外する（extract_articleで剥がす）。
+#   代わりにリンクを一切含まない一文だけを末尾に添える。空文字なら何も添えない。
+#   文言を変える・止めるときはここだけ直す。
+NORDOT_FOOTER = ""  # 例: "台湾旅行では、AIレスキュー機能つきのeSIMを用意しておくと、通信トラブルのときも安心です。"
+
+
 BLOCK_KEEP = {"h1","h2","h3","h4","h5","h6","p","ul","ol","li",
               "blockquote","pre","hr","figure","figcaption","img"}
 INLINE_KEEP = {"a","br","em","strong","del"}
@@ -186,6 +194,27 @@ def extract_article(html_text):
     #   ここの除外条件も更新すること）
     NON_BODY = ("ts-side", "ts-jump", "ts-portal")
     bodies = []
+
+    def strip_cta(chunk):
+        """自社サイト用CTA <div class="ts-sim-cta" ...>…</div> を丸ごと取り除く（入れ子対応）。"""
+        out = chunk
+        while True:
+            k = out.find('class="ts-sim-cta"')
+            if k < 0:
+                return out
+            st = out.rfind("<div", 0, k)
+            if st < 0:
+                return out
+            depth, i = 1, out.find(">", k) + 1
+            while depth and i < len(out):
+                no, nc = out.find("<div", i), out.find("</div>", i)
+                if nc < 0:
+                    return out[:st]
+                if 0 <= no < nc:
+                    depth += 1; i = no + 4
+                else:
+                    depth -= 1; i = nc + 6
+            out = out[:st] + out[i:]
     for m2 in re.finditer(r'<div[^>]*class="[^"]*j-htmlCode[^"]*"[^>]*>', seg):
         start = m2.end()
         depth = 1
@@ -201,8 +230,10 @@ def extract_article(html_text):
             else:
                 depth -= 1
                 i = nxt_close + 6
-        chunk = seg[start:i - 6]
+        chunk = strip_cta(seg[start:i - 6])
         if any(cls in chunk for cls in NON_BODY):
+            continue
+        if not chunk.strip():
             continue
         bodies.append(chunk)
     return title, "\n".join(bodies)
@@ -254,6 +285,10 @@ def main():
         title, raw = extract_article(html_text)
         title = art.get("title") or title
         body = sanitize(raw)
+        if NORDOT_FOOTER and "ts-sim-cta" not in body:
+            body = body + "\n<p>" + NORDOT_FOOTER + "</p>"
+        if "ts-sim-cta" in body or "/sim/" in body:
+            sys.exit(f"ERROR: 配信文に自社CTA/simリンクが残っています（ガイドライン違反）: {url}")
         if len(body) > MAX_BODY:
             sys.exit(f"ERROR: 本文が{len(body)}字でNordot上限{MAX_BODY}字を超過: {url}")
         if not body or not title:

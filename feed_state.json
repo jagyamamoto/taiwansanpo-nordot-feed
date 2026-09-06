@@ -146,5 +146,9 @@
  "taiwansanpo-2026-zhongqiujie": {
   "fedAt": "Sun, 06 Sep 2026 13:40:45 +0900",
   "hash": "11c38c727686c51c066543443b54c2277cc566ffb62c52499019ca59ad134f9f"
+ },
+ "taiwansanpo-2026-antaisui": {
+  "fedAt": "Sun, 06 Sep 2026 13:58:33 +0900",
+  "hash": "62f345f55069803f6efdccfa70d979d59dece864f96bbc57df8cf8684823acc2"
  }
 }
