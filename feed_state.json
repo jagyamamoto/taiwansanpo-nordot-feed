@@ -150,5 +150,9 @@
  "taiwansanpo-2026-antaisui": {
   "fedAt": "Sun, 06 Sep 2026 13:58:33 +0900",
   "hash": "62f345f55069803f6efdccfa70d979d59dece864f96bbc57df8cf8684823acc2"
+ },
+ "taiwansanpo-2026-guanyin": {
+  "fedAt": "Sun, 06 Sep 2026 23:01:06 +0900",
+  "hash": "2d1f3d3d06b9ac073bef25753141d6177e71fd2c90d3503d3f75125df83c177b"
  }
 }
