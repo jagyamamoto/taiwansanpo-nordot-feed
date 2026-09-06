@@ -142,5 +142,9 @@
  "taiwansanpo-2026-sanpai-junjo": {
   "fedAt": "Sun, 06 Sep 2026 13:16:13 +0900",
   "hash": "7e4698b38d1886d494f7668ddc15ed7c14b0fb19b9874c938ee36cb344330be9"
+ },
+ "taiwansanpo-2026-zhongqiujie": {
+  "fedAt": "Sun, 06 Sep 2026 13:40:45 +0900",
+  "hash": "11c38c727686c51c066543443b54c2277cc566ffb62c52499019ca59ad134f9f"
  }
 }
