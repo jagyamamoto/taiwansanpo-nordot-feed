@@ -186,5 +186,13 @@
  "taiwansanpo-2026-zinan-temple": {
   "fedAt": "Wed, 09 Sep 2026 19:29:14 +0900",
   "hash": "363ae1956676aac15a5dbbcfc73adb371f8f7ee3a86a83c7437c281e205447f3"
+ },
+ "taiwansanpo-2026-jigong": {
+  "fedAt": "Wed, 09 Sep 2026 22:56:45 +0900",
+  "hash": "ddc875479d23530ef29a8f2bea26cd7f0a7d1e5768d7ffcc9a72eeee33dad711"
+ },
+ "taiwansanpo-2026-qiaosheng-xianshi": {
+  "fedAt": "Thu, 10 Sep 2026 07:33:28 +0900",
+  "hash": "45efd18dae2dd2870965ce82579836729c81391952e4277bf9797a87db8a6c60"
  }
 }
