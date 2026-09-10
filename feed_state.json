@@ -198,5 +198,9 @@
  "taiwansanpo-2026-chongyangjie": {
   "fedAt": "Thu, 10 Sep 2026 13:32:20 +0900",
   "hash": "ba240d8f535849aa8b519eb6ecb14a2d5366d992f723e59f44d3968a7b3428fe"
+ },
+ "taiwansanpo-2026-checheng-fuan": {
+  "fedAt": "Thu, 10 Sep 2026 19:28:56 +0900",
+  "hash": "41599ef3f88e5b3ead4438344214383d097f2b9f08066dcd9592619b2435b454"
  }
 }
