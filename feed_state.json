@@ -214,5 +214,9 @@
  "taiwansanpo-2026-longhu-tower": {
   "fedAt": "Fri, 11 Sep 2026 19:31:11 +0900",
   "hash": "650e862601ee8334512eff8a84e12297c1dd11b709af4695958c5ad6431c3853"
+ },
+ "taiwansanpo-2026-caishen-wenwu": {
+  "fedAt": "Sat, 12 Sep 2026 07:32:31 +0900",
+  "hash": "ee60eb356c3d16f89ecb299113ffc394c931e26c7e1e09036447869185b74dcd"
  }
 }
