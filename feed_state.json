@@ -222,5 +222,9 @@
  "taiwansanpo-2026-foguangshan": {
   "fedAt": "Sat, 12 Sep 2026 20:44:11 +0900",
   "hash": "74cabfbaa1a372be833d164afd4cf32eb4daba3f94f12218fc30d92e459d2fcc"
+ },
+ "taiwansanpo-2026-shoujing": {
+  "fedAt": "Sat, 12 Sep 2026 22:47:12 +0900",
+  "hash": "71572989f6e34c7988fe9085438dc22db70d9ef89604cc900d0e33cebb6fce4e"
  }
 }
