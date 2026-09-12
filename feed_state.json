@@ -218,5 +218,9 @@
  "taiwansanpo-2026-caishen-wenwu": {
   "fedAt": "Sat, 12 Sep 2026 07:32:31 +0900",
   "hash": "ee60eb356c3d16f89ecb299113ffc394c931e26c7e1e09036447869185b74dcd"
+ },
+ "taiwansanpo-2026-foguangshan": {
+  "fedAt": "Sat, 12 Sep 2026 20:44:11 +0900",
+  "hash": "74cabfbaa1a372be833d164afd4cf32eb4daba3f94f12218fc30d92e459d2fcc"
  }
 }
