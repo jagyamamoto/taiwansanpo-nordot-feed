@@ -230,5 +230,9 @@
  "taiwansanpo-2026-shennong-dadi": {
   "fedAt": "Sun, 13 Sep 2026 07:27:26 +0900",
   "hash": "9efb88e89df9dc51d6803b2bd5ea124c383d42fb77617b3fd1c1b5e62ffe4ca4"
+ },
+ "taiwansanpo-2026-nongminli": {
+  "fedAt": "Sun, 13 Sep 2026 13:32:29 +0900",
+  "hash": "af71295e25b9ef173f3b18890df488f863c6c12a6458465a1d17a788ad028929"
  }
 }
