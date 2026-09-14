@@ -246,5 +246,13 @@
  "taiwansanpo-2026-sanguan-dadi": {
   "fedAt": "Mon, 14 Sep 2026 07:21:47 +0900",
   "hash": "6c1739f7a4fce450e5982b460e3d1fa77bc03eee808c14001d6cfcc40f82c6b0"
+ },
+ "taiwansanpo-2026-zhinan-fire": {
+  "fedAt": "Mon, 14 Sep 2026 10:42:52 +0900",
+  "hash": "eefbe03c1947099bb99c4dc0e871175f96c83a0acd9971cd737c5ffd25c8a5b9"
+ },
+ "taiwansanpo-2026-gongpin-fruit-taboo": {
+  "fedAt": "Mon, 14 Sep 2026 13:26:45 +0900",
+  "hash": "96f403c1f68033bd4169b9679cc27c1bc1a0a3f22847e875460689346dd598c0"
  }
 }
