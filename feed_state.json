@@ -282,5 +282,9 @@
  "taiwansanpo-2026-zaojun": {
   "fedAt": "Wed, 16 Sep 2026 07:30:48 +0900",
   "hash": "79e46449810ac2676cd269bf9dc1f30f2b7c88bce22bf6e7e91c24402a438649"
+ },
+ "taiwansanpo-2026-shenmingzhuo": {
+  "fedAt": "Wed, 16 Sep 2026 13:20:55 +0900",
+  "hash": "89bba5b233abd0e8f1e74c635506f6debaaa346de4817c3eced842701805d8c5"
  }
 }
