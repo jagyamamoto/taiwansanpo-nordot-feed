@@ -286,5 +286,9 @@
  "taiwansanpo-2026-shenmingzhuo": {
   "fedAt": "Wed, 16 Sep 2026 13:20:55 +0900",
   "hash": "89bba5b233abd0e8f1e74c635506f6debaaa346de4817c3eced842701805d8c5"
+ },
+ "taiwansanpo-2026-qingxiuyuan": {
+  "fedAt": "Wed, 16 Sep 2026 19:27:28 +0900",
+  "hash": "23f8779dc85fedde2cd3a16185637f3d3c9071f321fc7fe1ea8fdb2af6b54469"
  }
 }
