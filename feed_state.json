@@ -290,5 +290,9 @@
  "taiwansanpo-2026-qingxiuyuan": {
   "fedAt": "Wed, 16 Sep 2026 19:27:28 +0900",
   "hash": "23f8779dc85fedde2cd3a16185637f3d3c9071f321fc7fe1ea8fdb2af6b54469"
+ },
+ "taiwansanpo-2026-taitung-tianhou": {
+  "fedAt": "Thu, 17 Sep 2026 19:25:43 +0900",
+  "hash": "a3310fc54689abb01ab6af088cb6c589edb7ba413360b586dcd7aeb100be562e"
  }
 }
