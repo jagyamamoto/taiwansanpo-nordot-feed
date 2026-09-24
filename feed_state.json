@@ -302,5 +302,9 @@
  "taiwansanpo-2026-linyuan-shenzhugong": {
   "fedAt": "Thu, 24 Sep 2026 13:18:44 +0900",
   "hash": "be13acf0ce2dc68ae497013af0c8b829e47209bdf443570c22d86fd5891e004c"
+ },
+ "taiwansanpo-2026-baishatun": {
+  "fedAt": "Thu, 24 Sep 2026 19:14:32 +0900",
+  "hash": "4bebfbe8c32bc93c9f33cebf93979d19b76e208a108d62bce3c739a2e1609020"
  }
 }
