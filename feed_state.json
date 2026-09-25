@@ -322,5 +322,9 @@
  "taiwansanpo-2026-qingshui-zushi": {
   "fedAt": "Fri, 25 Sep 2026 22:50:00 +0900",
   "hash": "a9598ebefdd518195ade327c88b27c74941c0b1a6b216aa795830117d3c021e1"
+ },
+ "taiwansanpo-2026-kaizhang-shengwang": {
+  "fedAt": "Sat, 26 Sep 2026 07:17:10 +0900",
+  "hash": "de02a5759fa21a2282999147dc564f9fd3977af9805dc823c01547fdd61175bf"
  }
 }
