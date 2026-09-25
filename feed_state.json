@@ -318,5 +318,9 @@
  "taiwansanpo-2026-nanyaogong": {
   "fedAt": "Fri, 25 Sep 2026 19:50:39 +0900",
   "hash": "5b754c9ec5f48f43066a7cd9f5f42adc54447648a21ffe73dc34fc5c6300530b"
+ },
+ "taiwansanpo-2026-qingshui-zushi": {
+  "fedAt": "Fri, 25 Sep 2026 22:50:00 +0900",
+  "hash": "a9598ebefdd518195ade327c88b27c74941c0b1a6b216aa795830117d3c021e1"
  }
 }
