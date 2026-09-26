@@ -326,5 +326,9 @@
  "taiwansanpo-2026-kaizhang-shengwang": {
   "fedAt": "Sat, 26 Sep 2026 07:17:10 +0900",
   "hash": "de02a5759fa21a2282999147dc564f9fd3977af9805dc823c01547fdd61175bf"
+ },
+ "taiwansanpo-2026-xiangyouqian": {
+  "fedAt": "Sat, 26 Sep 2026 13:27:08 +0900",
+  "hash": "daa63150979b846ff832a62910a7d99421b13377000deb7e5bc12fb93fcf4871"
  }
 }
