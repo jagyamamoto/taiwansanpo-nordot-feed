@@ -330,5 +330,9 @@
  "taiwansanpo-2026-xiangyouqian": {
   "fedAt": "Sat, 26 Sep 2026 13:27:08 +0900",
   "hash": "daa63150979b846ff832a62910a7d99421b13377000deb7e5bc12fb93fcf4871"
+ },
+ "taiwansanpo-2026-keelung-qingangong": {
+  "fedAt": "Sat, 26 Sep 2026 19:15:33 +0900",
+  "hash": "5213b40241ad41f5362c6e7739ed5fb2b39150170a722674e0fc696671add236"
  }
 }
