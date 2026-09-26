@@ -334,5 +334,9 @@
  "taiwansanpo-2026-keelung-qingangong": {
   "fedAt": "Sat, 26 Sep 2026 19:15:33 +0900",
   "hash": "5213b40241ad41f5362c6e7739ed5fb2b39150170a722674e0fc696671add236"
+ },
+ "taiwansanpo-2026-baoyi-zunwang": {
+  "fedAt": "Sun, 27 Sep 2026 07:27:34 +0900",
+  "hash": "3368e173fe02e1457f5bda8454a9a57587c113b3caaedf6a83b6b1f64112e0b0"
  }
 }
