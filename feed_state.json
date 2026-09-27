@@ -350,5 +350,9 @@
  "taiwansanpo-2026-wanhegong": {
   "fedAt": "Sun, 27 Sep 2026 22:48:23 +0900",
   "hash": "69c0ada363cf68813e1a4da0f1461243eefec48b05f5ed7833c081ed42b28118"
+ },
+ "taiwansanpo-2026-fazhugong": {
+  "fedAt": "Mon, 28 Sep 2026 07:18:03 +0900",
+  "hash": "6a08d7b88325b0f4916b67487f48f114ba972b502fc99df468174f78eda87122"
  }
 }
