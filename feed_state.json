@@ -346,5 +346,9 @@
  "taiwansanpo-2026-lecheng-gong": {
   "fedAt": "Sun, 27 Sep 2026 19:12:40 +0900",
   "hash": "18d879dd68e2d6bf49ffb94ec1df1076ac91cf1ff748c924f06bf8a5920e38ca"
+ },
+ "taiwansanpo-2026-wanhegong": {
+  "fedAt": "Sun, 27 Sep 2026 22:48:23 +0900",
+  "hash": "69c0ada363cf68813e1a4da0f1461243eefec48b05f5ed7833c081ed42b28118"
  }
 }
