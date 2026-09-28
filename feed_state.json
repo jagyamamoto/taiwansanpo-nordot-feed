@@ -366,5 +366,9 @@
  "taiwansanpo-2026-tianduyuanshuai": {
   "fedAt": "Mon, 28 Sep 2026 23:01:56 +0900",
   "hash": "2ec512463fd2940fe6fa23a046624404d37b71eebdf214e1fe5f5cefcd6d139a"
+ },
+ "taiwansanpo-2026-chifu-qiansui": {
+  "fedAt": "Tue, 29 Sep 2026 07:19:34 +0900",
+  "hash": "bcf574466f1d13d140df27f24808d2ac8ab901f36fda6cc4b3682ad366b411b0"
  }
 }
