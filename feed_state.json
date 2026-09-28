@@ -358,5 +358,9 @@
  "taiwansanpo-2026-qizi": {
   "fedAt": "Mon, 28 Sep 2026 13:20:16 +0900",
   "hash": "c22fd7c7f98df4512cf1c8cab6bea389cf7f349e087d4a69ca3cc7c68d7eff8e"
+ },
+ "taiwansanpo-2026-magang-tianhou": {
+  "fedAt": "Mon, 28 Sep 2026 19:16:46 +0900",
+  "hash": "cf1824d3b7dde60f0d855d25d628c5752d9580952829a2147a00384d1b8b3dbe"
  }
 }
