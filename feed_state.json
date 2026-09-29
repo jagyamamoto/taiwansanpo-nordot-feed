@@ -370,5 +370,13 @@
  "taiwansanpo-2026-chifu-qiansui": {
   "fedAt": "Tue, 29 Sep 2026 07:19:34 +0900",
   "hash": "bcf574466f1d13d140df27f24808d2ac8ab901f36fda6cc4b3682ad366b411b0"
+ },
+ "taiwansanpo-2026-jianxiang": {
+  "fedAt": "Tue, 29 Sep 2026 13:31:25 +0900",
+  "hash": "f998df9dd05f779213b123d8b3df678940c6ab285ec772c06d63083cb31d09a5"
+ },
+ "taiwansanpo-2026-banli-tianhou": {
+  "fedAt": "Tue, 29 Sep 2026 19:16:48 +0900",
+  "hash": "10716ec948a341be816fe766f73f9d6e02edcc26c3d05aec7442cb6b0eeb6325"
  }
 }
