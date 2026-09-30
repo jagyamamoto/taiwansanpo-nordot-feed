@@ -394,5 +394,9 @@
  "taiwansanpo-2026-qionglin": {
   "fedAt": "Wed, 30 Sep 2026 19:21:53 +0900",
   "hash": "9dfc4fe82e8e635b27676b1f7a27bb72128f2633249df5fa868c70f1fe874aca"
+ },
+ "taiwansanpo-2026-zhufu-qiansui": {
+  "fedAt": "Thu, 01 Oct 2026 07:14:51 +0900",
+  "hash": "640f8e6f6b46ec97971ebeeb711476280f2fd9946030ef804e6261b91d2e095e"
  }
 }
