@@ -406,5 +406,9 @@
  "taiwansanpo-2026-ruhe-jinji": {
   "fedAt": "Sat, 03 Oct 2026 13:12:48 +0900",
   "hash": "4da145d8ac63940a19b7023102f3383f27d654d045a386a61f8303472b9325e8"
+ },
+ "taiwansanpo-2026-shuitou": {
+  "fedAt": "Sat, 03 Oct 2026 19:40:04 +0900",
+  "hash": "468a4028369cc797e5704bc22f98c216358fc35d2a32d7beba4db80a9f196558"
  }
 }
