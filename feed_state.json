@@ -414,5 +414,9 @@
  "taiwansanpo-2026-kaitai-shengwang": {
   "fedAt": "Sun, 04 Oct 2026 07:34:55 +0900",
   "hash": "cfe7e1b0f6d9fb7fb37ca3822d85d81acc7aee6579ce30eca07a9a2dc6a6a575"
+ },
+ "taiwansanpo-2026-sansheng-gongpin": {
+  "fedAt": "Sun, 04 Oct 2026 13:23:49 +0900",
+  "hash": "a91d848b33cb4b6945b72505ba82d4e0e693c3d89dfa5c11591068293994aa5d"
  }
 }
