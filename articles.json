@@ -1,11 +1,5 @@
 [
   {
-    "url": "https://www.taiwansanpo.com/2026/09/28/台湾の神様図鑑-法主公-黒い顔と剣-蛇で見分ける-正体は妖怪退治の道士/",
-    "publishedAt": "2026-09-28 07:15",
-    "tags": "台湾,寺廟,神様図鑑,法主公,張聖君,大稻埕,台北",
-    "guid": "taiwansanpo-2026-fazhugong"
-  },
-  {
     "url": "https://www.taiwansanpo.com/2026/09/28/台湾のお寺の実用ガイド-契子-ー我が子を神様に託す風習-証文は大正9年から現存/",
     "publishedAt": "2026-09-28 13:20",
     "tags": "台湾,寺廟,契子,行事・歳時記・実用ガイド,鹿港,子育て",
@@ -118,5 +112,17 @@
     "publishedAt": "2026-10-05 13:21",
     "tags": "台湾,お寺,線香,行事・歳時記・実用ガイド,参拝作法",
     "guid": "taiwansanpo-2026-xianxiang-se"
+  },
+  {
+    "url": "https://www.taiwansanpo.com/2026/10/05/彰化-鹿港の国定古跡-龍山寺-ー-釘を使わない戲台-台湾最古の八卦藻井/",
+    "publishedAt": "2026-10-05 19:21",
+    "tags": [
+      "台湾",
+      "お寺",
+      "彰化",
+      "鹿港",
+      "龍山寺"
+    ],
+    "guid": "taiwansanpo-2026-lukang-longshan"
   }
 ]
