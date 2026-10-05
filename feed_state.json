@@ -422,5 +422,13 @@
  "taiwansanpo-2026-shanhou": {
   "fedAt": "Sun, 04 Oct 2026 19:23:34 +0900",
   "hash": "0989fd3c6367e0b8f226dccb218a30b79ba4dc1ab3742576cbb66555bb780422"
+ },
+ "taiwansanpo-2026-dongyue-dadi": {
+  "fedAt": "Mon, 05 Oct 2026 13:22:08 +0900",
+  "hash": "50508e31d7e4a2024548300da40ecbb3f75abd6af41664e456b5736f0721925f"
+ },
+ "taiwansanpo-2026-xianxiang-se": {
+  "fedAt": "Mon, 05 Oct 2026 13:22:08 +0900",
+  "hash": "f4c5bba2c7cf765de8ec38c46b2d1a10fd61305ae2f654dadf2b048d5ba3d9dd"
  }
 }
