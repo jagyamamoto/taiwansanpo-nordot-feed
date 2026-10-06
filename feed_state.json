@@ -434,5 +434,13 @@
  "taiwansanpo-2026-lukang-longshan": {
   "fedAt": "Mon, 05 Oct 2026 19:23:47 +0900",
   "hash": "96b08f28801a3314a3c172c83029f10299520eb795206a403b48967fc92691a5"
+ },
+ "taiwansanpo-2026-shuixian-zunwang": {
+  "fedAt": "Tue, 06 Oct 2026 07:16:55 +0900",
+  "hash": "cb9c86bf7e1db5307f6f4905ea855ea7a7c6fc27ebf286133a74c2e156869355"
+ },
+ "taiwansanpo-2026-wude-ai": {
+  "fedAt": "Tue, 06 Oct 2026 13:29:13 +0900",
+  "hash": "cb16751885b743ec5f6d74a10dbfec2c59dcc5b7389986878c15fd37c10d5473"
  }
 }
