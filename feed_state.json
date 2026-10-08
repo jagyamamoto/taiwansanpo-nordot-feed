@@ -466,5 +466,9 @@
  "taiwansanpo-2026-qiujian": {
   "fedAt": "Thu, 08 Oct 2026 13:16:05 +0900",
   "hash": "ee5d10bba379662919a5a7fd60c22077a3b5e8e5e2e291b1b073bf4d03807068"
+ },
+ "taiwansanpo-2026-fengshan-longshan": {
+  "fedAt": "Thu, 08 Oct 2026 19:27:27 +0900",
+  "hash": "f2f49d90102e423ccfa26ab26ff2fb8df704083e8bc5b407b01bb58bd6a5eec1"
  }
 }
