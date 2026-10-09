@@ -474,5 +474,13 @@
  "taiwansanpo-2026-xuantian-shangdi": {
   "fedAt": "Fri, 09 Oct 2026 07:23:21 +0900",
   "hash": "f9d3f599b44e1de1e1b55a9b0a7fb8e8285089cc8229b767284fdef9973c628e"
+ },
+ "taiwansanpo-2026-shenming-goods-ip": {
+  "fedAt": "Fri, 09 Oct 2026 13:26:21 +0900",
+  "hash": "925fff08b84329db99ecea07a3857044b163b2047d94b1c35600dc70f2bdaf26"
+ },
+ "taiwansanpo-2026-donglong-temple": {
+  "fedAt": "Fri, 09 Oct 2026 19:20:22 +0900",
+  "hash": "a8a07681f3a25a69f3e11b13c12a4ca8e7d38a5f47c997882a235451acd6909c"
  }
 }
