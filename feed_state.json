@@ -490,5 +490,9 @@
  "taiwansanpo-2026-jigong-hsinchu-mile": {
   "fedAt": "Sat, 10 Oct 2026 15:37:33 +0900",
   "hash": "384f9385df97bbd535bef2852457cd047675a838e67d0c0b56139fe119742de3"
+ },
+ "taiwansanpo-2026-zhulinshan-guanyin": {
+  "fedAt": "Sat, 10 Oct 2026 19:20:08 +0900",
+  "hash": "f356a6a7f736fa096a65b9f3027283cc8e0605ed12231a5262a9449dedebfb0c"
  }
 }
