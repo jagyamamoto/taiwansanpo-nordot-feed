@@ -260,13 +260,18 @@ def cdata(text):
     return "<![CDATA[" + text.replace("]]>", "]]]]><![CDATA[>") + "]]>"
 
 
+def feed_window(articles):
+    """Keep complete input history; only the public feed is a latest-20 window."""
+    if len(articles) <= MAX_ITEMS:
+        return list(articles)
+    return sorted(articles, key=lambda a: datetime.strptime(a["publishedAt"], "%Y-%m-%d %H:%M"))[-MAX_ITEMS:]
+
+
 def main():
     articles = json.loads((ROOT / "articles.json").read_text(encoding="utf-8"))
     state_path = ROOT / "feed_state.json"
     state = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else {}
     now = datetime.now(JST)
-    if len(articles) > MAX_ITEMS:
-        sys.exit(f"ERROR: 1フィード{MAX_ITEMS}本まで。articles.jsonが{len(articles)}本あります。分割してください。")
 
     # guid はNordotの記事識別キー（上限255字・変更不可）。日本語URLはエンコードで
     # 255字を超えるため、articles.json の "guid" 欄で短い恒久IDを明示管理する
@@ -279,6 +284,8 @@ def main():
             sys.exit(f"ERROR: guidは255字以内の英数字・記号のみ: {g}")
 
     items = []
+    # GUID validation above applies to the entire preserved catalog.
+    articles = feed_window(articles)
     for art in articles:
         url = art["url"]
         html_text = fetch(url)
